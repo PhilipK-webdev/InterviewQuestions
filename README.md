@@ -12,10 +12,15 @@ As a user I want to be ready to any Job Interview by answering Interview questio
 ```
 
 
-<!-- ## Screenshot  -->
+## Screenshot 
 
-<!-- ![](./src/assets/Shoppies.PNG) -->
+### question 1:
 
+![](./img/1.jpeg)
+
+### question 2:
+
+![](./img/2.jpeg)
 ### Prerequisites
 
 Visual Studio Code 
