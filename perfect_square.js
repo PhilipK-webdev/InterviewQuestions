@@ -3,12 +3,12 @@ function findNextSquare(sq) {
     let isPerfect = false;
     let newSq = 0;
     const number = Math.sqrt(sq);
+    console.log(number)
     if (number % 1 != 0) {
         console.log("Not Perfect");
         isPerfect = false;
     } else {
         isPerfect = true;
-        console.log("Perfect");
         newSq = number + 1;
     }
 
@@ -21,5 +21,5 @@ function findNextSquare(sq) {
 
 }
 
-const result = findNextSquare(114);
+const result = findNextSquare(100);
 console.log(result);

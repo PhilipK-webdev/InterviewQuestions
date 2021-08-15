@@ -15,7 +15,7 @@ function isPalindrom(string) {
   return true;
 }
 
-const result = isPalindrom("refer");
+const result = isPalindrom("philihp");
 console.log(result);
 
 // var x =  5;
