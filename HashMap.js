@@ -18,4 +18,4 @@ function letter(str) {
 }
 
 
-const result = letter('AAAABBBCCAAZZEF');
+const result = letter('AABAABBBCCAAZZEF');

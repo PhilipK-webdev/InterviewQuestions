@@ -6,8 +6,11 @@ function solution(string) {
         return string;
     } else {
         const result = string.replace(/([A-Z]+)/g, " $1");
+        // console.log(result);
+
         const finalResult = result.charAt(0) + result.slice(1);
-        return finalResult;
+        // return finalResult;
+        return result;
     }
 
 

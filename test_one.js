@@ -1,6 +1,7 @@
 function solution(S, C) {
 
     const splitted = S.split("\n");
+    console.log(splitted)
 
     // create data from ids
     const data = {};
@@ -26,7 +27,9 @@ function solution(S, C) {
     }
 
     const valueArray = data[C];
+
     const numArray = valueArray.map(num => +num);
+
     return Math.max(...numArray);
 }
 

@@ -9,14 +9,12 @@ var isPP = function (n) {
     }
 
     for (let i = 2; i < n; i++) {
-
         if (n % i === 0) {
             countSquare++;
-
             numToCheck = n / i;
         }
     }
-
+    console.log(numToCheck)
     if (n <= 10) {
         if (sqrt === 0 && countSquare === 0) {
             return null;

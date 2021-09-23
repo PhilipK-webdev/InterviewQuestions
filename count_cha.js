@@ -7,7 +7,6 @@ function count(string) {
     string.forEach(char => {
         let count = 0;
         for (let i = 0; i < string.length; i++) {
-
             if (char == string[i]) {
                 count += 1;
             }
@@ -21,5 +20,5 @@ function count(string) {
     return objChar;
 }
 
-const result = count("aabaa");
+const result = count("aabaca");
 console.log(result);

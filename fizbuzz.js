@@ -3,15 +3,15 @@ function fizBuzz(num) {
 
     for (let i = 1; i <= num; i++) {
         // My Solution
-        if (i % 3 === 0 && i % 5 === 0) {
-            arrData.push("FizzBuzz");
-        } else if (i % 3 === 0) {
-            arrData.push("Fizz");
-        } else if (i % 5 === 0) {
-            arrData.push("Buzz");
-        } else {
-            arrData.push(i.toString());
-        }
+        // if (i % 3 === 0 && i % 5 === 0) {
+        //     arrData.push("FizzBuzz");
+        // } else if (i % 3 === 0) {
+        //     arrData.push("Fizz");
+        // } else if (i % 5 === 0) {
+        //     arrData.push("Buzz");
+        // } else {
+        //     arrData.push(i.toString());
+        // }
 
         // Youtube Solution
 

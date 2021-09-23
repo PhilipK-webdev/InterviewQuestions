@@ -9,7 +9,6 @@ function isPrime(num) {
     for (let i = 0; i <= Math.floor(Math.sqrt(num)); i++) {
         if (num % i === 0) {
             count++;
-
         }
     }
     if (count === 1) {
@@ -18,5 +17,5 @@ function isPrime(num) {
         return false;
     }
 }
-const result = isPrime(5);
+const result = isPrime(6);
 console.log(result);

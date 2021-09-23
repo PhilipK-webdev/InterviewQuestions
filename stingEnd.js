@@ -16,5 +16,5 @@ function solution(str, ending) {
     }
 }
 
-const result = solution("abcde", "cde");
+const result = solution("abcde", "cbe");
 console.log(result);

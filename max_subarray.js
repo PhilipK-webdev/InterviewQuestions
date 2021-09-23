@@ -31,9 +31,10 @@ var maxSequence = function (arr) {
         }
         sumArr.push(max);
     }
+
     return Math.max(...sumArr);
 
 }
 
 const printResult = maxSequence([-2, 1, -3, 4, -1, 2, 1, -5, 4]);
-console.log(printResult);
+// console.log(printResult);

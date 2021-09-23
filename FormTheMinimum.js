@@ -15,4 +15,4 @@ function minValue(values) {
 }
 
 const result = minValue([1, 9, 3, 1, 7, 4, 6, 6, 7]);
-console.log(typeof result);
+console.log(result);
